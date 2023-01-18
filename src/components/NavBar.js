@@ -11,8 +11,8 @@ function NavBar() {
       <nav className="navbar">
         <div className="nav-container">
           <NavLink exact to="/" className="nav-logo">
-            CodeBucks
             <i className="fas fa-code"></i>
+			ThoughtSpot for Shopify
           </NavLink>
 
           <ul className={click ? "nav-menu active" : "nav-menu"}>
@@ -35,7 +35,7 @@ function NavBar() {
                 className="nav-links"
                 onClick={handleClick}
               >
-                About
+                Search
               </NavLink>
             </li>
             <li className="nav-item">
@@ -46,7 +46,7 @@ function NavBar() {
                 className="nav-links"
                 onClick={handleClick}
               >
-                Blog
+                My Liveboard
               </NavLink>
             </li>
             <li className="nav-item">
@@ -57,7 +57,7 @@ function NavBar() {
                 className="nav-links"
                 onClick={handleClick}
               >
-                Contact Us
+                Know more
               </NavLink>
             </li>
           </ul>
