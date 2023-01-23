@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/e042566f-7bbc-4cde-877e-d7b8756fea5d/AppServices/subscriptions/e042566f-7bbc-4cde-877e-d7b8756fea5d/resourceGroups/Koios/providers/Microsoft.Web/sites/Koios-ThoughtSpot",
+    "appService.deploySubpath": "."
+}
