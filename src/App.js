@@ -8,6 +8,7 @@ import { Contact } from "./components/Pages/Contact"																					;
 import * as msTeams from '@microsoft/teams-js';
 
 function App() {
+	msTeams.initialize();
   return (
     <>
       <Router>
