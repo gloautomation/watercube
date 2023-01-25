@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "@jridgewell/sourcemap-codec": "^1.4.14",
+    "@microsoft/teams-js": "^2.7.1",
     "@rollup/plugin-terser": "^0.3.0",
     "@svgr/plugin-svgo": "^6.5.1",
     "@svgr/webpack": "^6.5.1",
